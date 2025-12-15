@@ -1,0 +1,2 @@
+[console_scripts]
+my-app = my_project_markov.VD_games.scripts.VD_main:main
