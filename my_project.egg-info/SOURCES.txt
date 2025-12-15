@@ -4,9 +4,12 @@ my_project.egg-info/PKG-INFO
 my_project.egg-info/SOURCES.txt
 my_project.egg-info/dependency_links.txt
 my_project.egg-info/entry_points.txt
+my_project.egg-info/requires.txt
 my_project.egg-info/top_level.txt
 my_project_markov/__init__.py
+my_project_markov/VD_games/VD_games.py
 my_project_markov/VD_games/__init__.py
+my_project_markov/VD_games/cli.py
 my_project_markov/VD_games/scripts/VD_games.py
 my_project_markov/VD_games/scripts/VD_main.py
 my_project_markov/VD_games/scripts/__init__.py

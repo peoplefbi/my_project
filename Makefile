@@ -2,11 +2,15 @@ install:
 	uv sync
 
 VD-games:
-	uv run python3 my_project_markov/VD_games/scripts/VD_main.py
+	uv run VD-games
 
 build:
 	uv build
 
 package-install:
-	uv tool install ../dist/*.whl
+	uv tool install dist/*.whl
+
+lint:
+	uv run ruff check VD_games
+
 

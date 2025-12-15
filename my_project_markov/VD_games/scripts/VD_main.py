@@ -1,7 +1,6 @@
+from VD_games.VD_games import main as games_main
+
+
 def main():
-    print("Welcome to my application!")
-
-
-if __name__ == "__main__":
-    main()
+    games_main()
 
